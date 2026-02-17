@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Refined_Augment"
+version = "0.1.0"
+authors = [
+  { name="Marwan Gamal", email="marawangamal229@gmail.com" },
+]
+description = "This package allows you to detect faces in real-time using a webcam and overlay an AR object above the detected face."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/marwan679/AIaugment"
+Issues = "https://github.com/marwan679/AIaugment"
