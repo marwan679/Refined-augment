@@ -16,7 +16,7 @@ pip install opencv-python numpy psutil
 
 You can start the application by importing the package in your main script (test.py for example).
 ```bash
-import AI_augment as ar
+import Refined_augment as ar
 
 # Run with your custom image
 ar.start(image_path='AR_photo.png')
