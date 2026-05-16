@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "Refined_Augment"
-version = "0.1.0"
+version = "0.1.9"
 authors = [
   { name="Marwan Gamal", email="marawangamal229@gmail.com" },
 ]
@@ -16,6 +16,12 @@ classifiers = [
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Operating System :: OS Independent",
 ]
+dependencies = [
+  "opencv-python","psutil","numpy","scikit-image","open3d","mediapipe==0.10.21"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [project.urls]
 Homepage = "https://github.com/marwan679/AIaugment"
